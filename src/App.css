@@ -359,14 +359,14 @@ img{
   .heart1{
     position: relative;
     top: -440px;
-    width: 55px;
+    width: 40px;
     right: 24px;
   }
   .author{
     margin-top: 50px;
   }
   .desk p{
-    font-size: 12px;
+    font-size: 10px;
     font-family: "Pacifico", handwriting;
     color: white;
   }
