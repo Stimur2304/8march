@@ -1,38 +1,378 @@
-.App {
-  text-align: center;
-}
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body{
+  background: rgb(238,174,202);
+  background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.header{
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+
+}
+.header h1{
+  color: aliceblue;
+  font-family: "Pacifico", handwriting;
+  font-size: 60px;
+}
+.desk{
+  width: 90%;
+  background-color: rgb(215, 212, 251);
+  margin: 0 auto;
+  min-height: 370px;
+  border-radius: 25px;
+  border: 2px solid white;
+  overflow: hidden;
+}
+.desk p{
+  font-size: 25px;
+  font-family: "Pacifico", handwriting;
   color: white;
 }
+img{
+  width: 10%;
+  height: 130px;
+  z-index: 999;
 
-.App-link {
-  color: #61dafb;
+}
+.App{
+  height: 500px;
+}
+.flower{
+  width: 10%;
+  height: 20%;
+  z-index: 999;
+  position: relative;
+  left: 100px;
+  transform: rotate(85deg);
+  margin-top:-80px;
+}
+.heart1{
+  position: relative;
+  right: 6px;
+  bottom: 400px;
+  width: 7%;
+  height: 100px;
+}
+.flower1{
+  position: relative;
+  right: 100px;
+  bottom: 90px;
+}
+.heart2{
+  position: relative;
+  left: 1030px;
+  bottom: 130px;
+  width: 7%;
+  height: 100px;
+}
+.flower2{
+  position: relative;
+  left: 880px;
+  bottom: 430px;
+  rotate: 180deg;
+}
+.container{
+  height: 400px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.author{
+  color: white;
+  text-align: center;
+  font-size: 30px;
+  font-family: "Montserrat",sans-serif;
+}
+@media(max-width:1300px){
+  .heart2{
+    position: relative;
+    left: 970px;
+    bottom: 130px;
+    width: 7%;
+    height: 100px;
   }
-  to {
-    transform: rotate(360deg);
+  .flower2{
+    position: relative;
+    left: 830px;
+    bottom: 430px;
+    rotate: 180deg;
+  }
+}
+@media(max-width:1200px){
+  .heart2{
+    position: relative;
+    left: 890px;
+    bottom: 130px;
+    width: 7%;
+    height: 100px;
+  }
+  .flower2{
+    position: relative;
+    left: 770px;
+    bottom: 430px;
+    rotate: 180deg;
+  }
+}
+@media(max-width:1100px){
+  .heart2{
+    position: relative;
+    left: 830px;
+    bottom: 130px;
+    width: 7%;
+    height: 100px;
+  }
+  .flower2{
+    position: relative;
+    left: 700px;
+    bottom: 430px;
+    rotate: 180deg;
+  }
+}
+@media(max-width:1000px){
+  .heart2{
+    position: relative;
+    left: 750px;
+    bottom: 130px;
+    width: 7%;
+    height: 100px;
+  }
+  .flower2{
+    position: relative;
+    left: 650px;
+    bottom: 460px;
+    rotate: 180deg;
+  }
+  .flower1{
+    position: relative;
+    right: 80px;
+  }
+  .heart1{
+    position: relative;
+    top: -460px;
+  }
+  .author{
+    margin-top: 100px;
+  }
+}
+@media(max-width:900px){
+  .heart2{
+    position: relative;
+    left: 670px;
+    bottom: 130px;
+    width: 7%;
+    height: 100px;
+  }
+  .flower2{
+    position: relative;
+    left: 580px;
+    bottom: 530px;
+    rotate: 180deg;
+  }
+  .flower1{
+    position: relative;
+    right: 60px;
+  }
+  .heart1{
+    position: relative;
+    top: -520px;
+  }
+}
+@media(max-width:800px){
+  .heart2{
+    position: relative;
+    left: 580px;
+    bottom: 130px;
+    width: 7%;
+    height: 100px;
+  }
+  .flower2{
+    position: relative;
+    left: 510px;
+    bottom: 550px;
+    rotate: 180deg;
+  }
+  .flower1{
+    position: relative;
+    right: 60px;
+  }
+  .heart1{
+    position: relative;
+    top: -580px;
+  }
+  .author{
+    margin-top: 200px;
+  }
+}
+@media(max-width:700px){
+  .heart2{
+    position: relative;
+    left: 530px;
+    bottom: 130px;
+    width: 7%;
+    height: 100px;
+  }
+  .flower2{
+    position: relative;
+    left: 450px;
+    bottom: 470px;
+    rotate: 180deg;
+  }
+  .flower1{
+    position: relative;
+    right: 60px;
+  }
+  .heart1{
+    position: relative;
+    top: -470px;
+  }
+  .author{
+    margin-top: 100px;
+  }
+  .desk p{
+    font-size: 20px;
+    font-family: "Pacifico", handwriting;
+    color: white;
+  }
+}
+@media(max-width:600px){
+  .heart2{
+    position: relative;
+    left: 440px;
+    bottom: 130px;
+    width: 7%;
+    height: 100px;
+  }
+  .flower2{
+    position: relative;
+    left: 380px;
+    bottom: 470px;
+    rotate: 180deg;
+  }
+  .flower1{
+    position: relative;
+    right: 60px;
+  }
+  .heart1{
+    position: relative;
+    top: -470px;
+  }
+  .author{
+    margin-top: 100px;
+  }
+  .desk p{
+    font-size: 20px;
+    font-family: "Pacifico", handwriting;
+    color: white;
+  }
+}
+@media(max-width:500px){
+  .heart2{
+    position: relative;
+    left: 310px;
+    bottom: 130px;
+    height: 100px;
+    width: 40px;
+  }
+  .flower2{
+    position: relative;
+    left: 230px;
+    bottom: 600px;
+    rotate: 180deg;
+    width: 80px;
+  }
+  .flower1{
+    position: relative;
+    right: 75px;
+    width: 80px;
+  }
+  .heart1{
+    position: relative;
+    top: -600px;
+    width: 60px;
+    right: 24px;
+  }
+  .author{
+    margin-top: 200px;
+  }
+  .desk p{
+    font-size: 20px;
+    font-family: "Pacifico", handwriting;
+    color: white;
+  }
+}
+
+@media(max-width:400px){
+  .heart2{
+    position: relative;
+    left: 210px;
+    bottom: 130px;
+    height: 100px;
+    width: 40px;
+  }
+  .flower2{
+    position: relative;
+    left: 140px;
+    bottom: 460px;
+    rotate: 180deg;
+    width: 80px;
+  }
+  .flower1{
+    position: relative;
+    right: 85px;
+    width: 80px;
+  }
+  .heart1{
+    position: relative;
+    top: -470px;
+    width: 60px;
+    right: 24px;
+  }
+  .author{
+    margin-top: 100px;
+  }
+  .desk p{
+    font-size: 15px;
+    font-family: "Pacifico", handwriting;
+    color: white;
+  }
+}
+@media(max-width:300px){
+  .heart2{
+    position: relative;
+    left: 120px;
+    bottom: 130px;
+    height: 100px;
+    width: 30px;
+  }
+  .flower2{
+    position: relative;
+    left: 80px;
+    bottom: 445px;
+    rotate: 180deg;
+    width: 50px;
+    height: 100px;
+  }
+  .flower1{
+    position: relative;
+    right: 85px;
+    width: 80px;
+  }
+  .heart1{
+    position: relative;
+    top: -440px;
+    width: 55px;
+    right: 24px;
+  }
+  .author{
+    margin-top: 50px;
+  }
+  .desk p{
+    font-size: 12px;
+    font-family: "Pacifico", handwriting;
+    color: white;
+  }
+  .header h1{
+    color: aliceblue;
+    font-family: "Pacifico", handwriting;
+    font-size: 30px;
   }
 }
